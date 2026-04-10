@@ -1,5 +1,5 @@
-import { perguntar, fecharIO } from "./io";
-import { obrigatorio } from "./validators";
+import { perguntar, fecharIO } from "../io";
+import { obrigatorio } from "../validators";
 
 async function main() {
   console.log("=== VALIDAÇÃO DE CAMPO OBRIGATÓRIO ===");

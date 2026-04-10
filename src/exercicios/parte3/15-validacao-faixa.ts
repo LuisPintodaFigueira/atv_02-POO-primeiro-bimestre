@@ -1,4 +1,4 @@
-import { perguntar, fecharIO } from "./io";
+import { perguntar, fecharIO } from "../io";
 import { parseNumeroInteiro, entre } from "../validators";
 
 async function main() {
