@@ -6,7 +6,7 @@ async function main() {
 
     try {
         const idadeStr = await perguntar("Digite sua idade: ");
-        const idadeNum = parseNumeroInteiro(idadeStr);
+        const idadeNum = parseNumeroInteiro(idadeStr, "Idade");
         const idadeValida = entre(idadeNum, 0, 120, "Idade");
 
         console.log(`Idade válida: ${idadeValida} anos`);

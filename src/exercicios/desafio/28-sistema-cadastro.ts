@@ -1,5 +1,5 @@
-import { perguntar, fecharIO } from "./io";
-import { obrigatorio, parseNumeroInteiro, entre } from "./validators";
+import { perguntar, fecharIO } from "../io";
+import { obrigatorio, parseNumeroInteiro, entre } from "../validators";
 
 class Aluno {
   private nome: string;
