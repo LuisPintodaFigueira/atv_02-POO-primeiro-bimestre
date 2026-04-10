@@ -1,13 +1,3 @@
-# Ignorar node_modules
 node_modules/
-
-# Ignorar arquivos de build
 dist/
-*.js
-
-# Ignorar logs
-*.log
-
-# Ignorar arquivos do sistema
-.DS_Store
-Thumbs.db
+*.js/
