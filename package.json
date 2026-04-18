@@ -4,4 +4,51 @@
     "ts-node": "^10.9.2",
     "typescript": "^6.0.2"
   }
+  ,
+  "name": "typescript-exercicios",
+  "version": "1.0.0",
+  "description": "Exercícios de TypeScript",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    
+    "ex1": "ts-node src/exercicios/parte1/1-primeiro-programa.ts",
+    "ex2": "ts-node src/exercicios/parte1/2-identificadores.ts",
+    "ex3": "ts-node src/exercicios/parte1/3-var-let-const.ts",
+    "ex4": "ts-node src/exercicios/parte1/4-saida-formatada.ts",
+    
+    "ex5": "ts-node src/exercicios/parte2/5-tipos.ts",
+    "ex6": "ts-node src/exercicios/parte2/6-inferencia-anotacao.ts",
+    "ex7": "ts-node src/exercicios/parte2/7-funcoes-tipadas.ts",
+    "ex8": "ts-node src/exercicios/parte2/8-funcao-void.ts",
+    "ex9": "ts-node src/exercicios/parte2/9-eh-par.ts",
+    "ex10": "ts-node src/exercicios/parte2/10-interface-type.ts",
+    
+    "ex11": "ts-node src/exercicios/parte3/11-leitura-simples.ts",
+    "ex12": "ts-node src/exercicios/parte3/12-conversao-soma.ts",
+    "ex13": "ts-node src/exercicios/parte3/13-campo-obrigatorio.ts",
+    "ex14": "ts-node src/exercicios/parte3/14-numero-inteiro.ts",
+    "ex15": "ts-node src/exercicios/parte3/15-validacao-faixa.ts",
+    "ex16": "ts-node src/exercicios/parte3/16-cadastro-simples.ts",
+    
+    "ex17": "ts-node src/exercicios/parte4/17-classe-pessoa.ts",
+    "ex18": "ts-node src/exercicios/parte4/18-classe-produto.ts",
+    "ex19": "ts-node src/exercicios/parte4/19-classe-retangulo.ts",
+    "ex20": "ts-node src/exercicios/parte4/20-classe-conta-corrente.ts",
+    "ex21": "ts-node src/exercicios/parte4/21-modificadores-acesso.ts",
+    "ex22": "ts-node src/exercicios/parte4/22-classe-temperatura.ts",
+    "ex23": "ts-node src/exercicios/parte4/23-classe-televisao.ts",
+    
+    "ex24": "ts-node src/exercicios/parte5/24-classe-calculadora.ts",
+    "ex25": "ts-node src/exercicios/parte5/25-classe-lampada.ts",
+    "ex26": "ts-node src/exercicios/parte5/26-classe-usuario.ts",
+    "ex27": "ts-node src/exercicios/parte5/27-classe-saudacao.ts",
+    
+    "ex28": "ts-node src/exercicios/desafio/28-sistema-cadastro.ts"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0"
+  }
 }
